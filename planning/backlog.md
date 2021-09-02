@@ -13,11 +13,13 @@ A collection of user stories you can choose from. Stories inside of each priorit
     - _acceptance criteria ..._
   - [ ] a user can know how many questions are in the quiz
     - _acceptance criteria ..._
+  - [ ] **`a user can go to the quiz with a start button`**
+    - _acceptance criteria ..._
 - **Quiz Page**
   - [ ] a user can start/restart the quiz
-    - _acceptance criteria ..._
+    - _acceptance criteria ..._ **`At the end of the quiz`**
   - [ ] a user can select one or more answers for the current question
-    - _acceptance criteria ..._
+    - _acceptance criteria ..._ **`I think it's better on option`**
   - [ ] a user can go forward to the next question
     - _acceptance criteria ..._
   - [ ] a user can see their score at the end of the quiz
