@@ -22,18 +22,18 @@ how often will we get in touch on each channel, and what we will discuss there:
 
 ## Availability
 ### Availability for calling/messaging for the coming 3 weeks/starting from 06/09/2021
-| Day       |   Tatsiana  |  Reinaldo   | Hajir  |  Michael   | Senait  | osimef |
-| --------- | :-------:   | :-------:   | :-----:| :-----:    | :-----: | :-----:|
-| Monday    |  9:30- 2PM  |             |        | 19:30-23h  | 9:30-15h|        |
-| Tuesday   | After 22PM  |             |        | 19:30-23h  | 11h-15h |        |
-| Wednesday |  9:30-11AM  |             |        | 19:30-23h  | 9:30-15h|        |
-| Thursday  |    9:30-2PM |             |        | 10H-23H    | 9:30-15 |        |
-| Friday    |    9:30-2PM |             |        | 13H-16H    | 10h-15h |        |
+| Day       |   Tatsiana  |        Reinaldo      | Hajir  |  Michael   | Senait  | osimef |
+| --------- | :-------:   | :------------------: | :-----:| :-----:    | :-----: | :-----:|
+| Monday    |  9:30- 2PM  |9:30-12:00/14:00-18:00|        | 19:30-23h  | 9:30-15h|        |
+| Tuesday   | After 22PM  |9:30-12:00/14:00-18:00|        | 19:30-23h  | 11h-15h |        |
+| Wednesday |  9:30-11AM  |9:30-12:00/14:00-18:00|        | 19:30-23h  | 9:30-15h|        |
+| Thursday  |    9:30-2PM |9:30-12:00/14:00-18:00|        | 10H-23H    | 9:30-15 |        |
+| Friday    |    9:30-2PM |9:30-12:00/14:00-18:00|        | 13H-16H    | 10h-15h |        |
 
 ### How many hours everyone has per day
 
 - Tatsiana : _6h_;
-- Reinaldo: __;
+- Reinaldo: _6h_;
 - Hajir: __ ;
 - Michael: 5h average;
 - Senait: _6h_;
