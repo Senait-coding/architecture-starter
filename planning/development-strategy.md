@@ -18,9 +18,9 @@ We use data object of questions arrays in JSON format
  - findAll())
 
 # Business logic
-<!-- here we have still problems -->
-
-
+business logic function which can incerate the value of currentQuestionIndex by 1 
+create a function which will sort and shuffle our questions
+create a function that calculate correct and incorrect answers
 
 # Interface(presentation)
  a user can read instructions for the quiz
