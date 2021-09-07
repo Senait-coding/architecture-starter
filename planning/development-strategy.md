@@ -18,7 +18,7 @@ We use data object of questions arrays in JSON format
  - findAll())
 
 # Business logic
-- business logic function which can incerate the value of currentQuestionIndex by 1 
+- business logic function which can increase the value of currentQuestionIndex by 1 
 - create a function which will sort and shuffle our questions
 - create a function that calculate correct and incorrect answers
 
@@ -64,7 +64,7 @@ We use data object of questions arrays in JSON format
 - Handlers create a functions that use a business-logic
 
 - function showQuestions (questionId ) (using data access find function)
-- function showChoices (questionId) (using data access findAll function)
+- function selectAnswer
 - function  checkCorrect(answerId) (using data access find function)
 - function  saveAnswer(answerId) (using data access find function)
 - **optional* findScore(answerId)(using data access findAll function)
