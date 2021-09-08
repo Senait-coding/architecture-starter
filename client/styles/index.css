@@ -10,14 +10,14 @@ body {
 }
 
 
-h1 {
+.title {
     padding: 50px;
     text-align: center;
     color: #ffffff;
     font-size: 22px;
 }
 
-.instructions-container {
+.text-instructions {
     background-color: #EFEDED;
     width: 85%;
     border-radius: 10px;
@@ -42,7 +42,7 @@ p {
     justify-content: flex-end;
 }
 
-#start-button {
+#btn-start {
     width: 110px;
     height: 50px;
     background-color: #ff0000;
@@ -54,10 +54,10 @@ p {
     margin-bottom: 25px;
 }
 
-#start-button:hover {
+#btn-start:hover {
     background-color: #dc0202;
 }
 
-#start-button:active {
+#btn-start:active {
     background-color: #990202;
 }
