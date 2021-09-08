@@ -1,26 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belgium quiz</title>
 
-    <link href="./client/styles/index.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="user-interface">
-      <div id="input-root"></div>
-      <hr />
-      <div class="side-by-side">
-        <div id="unsorted"></div>
-        <div id="sorted"></div>
-      </div>
-    </div>
+    <link href="./client/styles/index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1 class="tittle">How much do you know about Belgium?</h1>
+    <div class="text-instruction">
+      <p>Here is a 20-question quiz about this beautiful country. Each question will have 4 possible answers. When you “click” on the answer that you consider to be the correct one, the color of the button containing your selection will change from blue to green if the answer is correct or to red if the answer is incorrect. After answering each question, you must "click" on the "next" button to go to the next question. 
+        <br>
+      <br>
+        It is not possible to go back to the previous question. You must finish the quiz to know the result of the quiz. After answering the last question of the quiz you will be able to know the number of correct and incorrect answers.</p>
+    </div>
+    <div  class='btn-container' >
+      <button type="button" id="btn-start" class="btn-start"><a href="./quiz-page.html"></a> START</button>
+    </div>
+    
 
-    <script
-      type="module"
-      src="./client/src/presentation/init/index.js"
-    ></script>
-  </body>
+    <script
+      type="module"
+      src="./client/src/presentation/init/index.js"
+    ></script>
+  </body>
 </html>
+
