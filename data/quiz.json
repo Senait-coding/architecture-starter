@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "question": "What is the tallest building in Belgium?",
+      "question": "1.What is the tallest building in Belgium?",
       "answered": false,
       "answers": [
         {
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "question": "What is the current population of Belgium?",
+      "question": "2.What is the current population of Belgium?",
       "answered": false,
       "answers": [
         {
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "question": "In which city of Belgium lived Albert Einstein for 6 months?",
+      "question": "3.In which city of Belgium lived Albert Einstein for 6 months?",
       "answered": false,
       "answers": [
         {
