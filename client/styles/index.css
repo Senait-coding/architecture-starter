@@ -56,8 +56,9 @@ p {
 
 #btn-start:hover {
     background-color: #dc0202;
+    cursor: pointer;
 }
 
 #btn-start:active {
-    background-color: #990202;
+    background-color: #990202; 
 }
