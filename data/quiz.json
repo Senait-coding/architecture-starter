@@ -1,75 +1,80 @@
 {
-  "greeting": "hello",
   "questions": [
     {
-      "question": "Which are correct ways to declare a variable in JavaScript? (strict mode)",
+      "question": "What is the tallest building in Belgium?",
       "answered": false,
       "answers": [
         {
-          "text": "const name = \"Tim\";",
+          "text": "Tour de Midi",
           "correct": true,
           "selected": false
         },
         {
-          "text": "name = \"Tim\";",
+          "text": "Rogier Tower",
           "correct": false,
           "selected": false
         },
         {
-          "text": "let name = \"Tim\";",
-          "correct": true,
+          "text": "Finance Tower",
+          "correct": false,
           "selected": false
         },
         {
-          "text": "var name = \"Tim\";",
-          "correct": true,
+          "text": "UP-Site",
+          "correct": false,
           "selected": false
-        }
-      ],
-      "links": [
-        {
-          "text": "javascript.info",
-          "url": "https://javascript.info/variables"
-        },
-        {
-          "text": "Tyler McGinnis",
-          "url": "https://ui.dev/var-let-const/"
         }
       ]
     },
     {
-      "question": "What does `typeof` do?",
+      "question": "What is the current population of Belgium?",
       "answered": false,
       "answers": [
         {
-          "text": "changes the type of a primitive value",
+          "text": "12,0 millions",
           "correct": false,
           "selected": false
         },
         {
-          "text": "returns a string describing the type of a value",
+          "text": "11,0 millions",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "text": "12,3 millions",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "text": "11,3 millions",
           "correct": true,
           "selected": false
-        },
-        {
-          "text": "determines if a value is primitive",
-          "correct": false,
-          "selected": false
-        },
-        {
-          "text": "can tell the difference between arrays and objects",
-          "correct": false,
-          "selected": false
         }
-      ],
-      "links": [
+      ]
+    },
+    {
+      "question": "In which city of Belgium lived Albert Einstein for 6 months?",
+      "answered": false,
+      "answers": [
         {
-          "text": "javascript.info",
-          "url": "https://javascript.info/types#type-typeof"
+          "text": "Brugges",
+          "correct": false,
+          "selected": false
         },
         {
-          "text": "MDN",
-          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof"
+          "text": "La Panne",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "text": "Antwerp",
+          "correct": false,
+          "selected": false
+        },
+        {
+          "text": "De Haan",
+          "correct": true,
+          "selected": false
         }
       ]
     }
