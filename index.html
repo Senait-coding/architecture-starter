@@ -2,25 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./client/styles/index.css" rel="stylesheet" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="client/styles/index.css" />
+    <title>Belgium Quiz</title>
   </head>
   <body>
-    <div id="user-interface">
-      <div id="input-root"></div>
-      <hr />
-      <div class="side-by-side">
-        <div id="unsorted"></div>
-        <div id="sorted"></div>
-      </div>
+    <div class="title">What do you know about Belgium?</div>
+    <div class="text-instructions">
+      <p>
+        Here you will find 20 questions about this beautiful country. Each
+        question has 4 possible answers. When you click on the answer that you
+        consider correct, the color of the button containing your selection will
+        turn green if the answer is correct, or red if the answer is incorrect.
+        <br />
+        <br />
+        It is not possible to return to the previous question. You must finish
+        the questionnaire to know the results. After answering the last
+        question, you will be able to know the number of correct and incorrect
+        answers.
+      </p>
+    </div>
+    <div class="btn-container">
+      <button onclick="quiz-page.html" class="btn" id="btn-start">START</button>
     </div>
 
-    <script
-      type="module"
-      src="./client/src/presentation/init/index.js"
-    ></script>
   </body>
 </html>

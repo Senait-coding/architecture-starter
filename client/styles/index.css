@@ -1,7 +1,87 @@
-@import url('./list.css');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-.side-by-side {
+body {
+  background-color: #5d77ab;
+}
+
+.title {
+  padding: 50px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.text-instructions {
+  background-color: #efeded;
+  width: 85%;
+  border-radius: 10px;
+  margin: 0px auto 25px auto;
+  box-shadow: 0px 2px 4px #000000;
+}
+
+p {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  word-spacing: 3px;
+  padding: 50px;
+  text-align: justify;
+  color: #536996;
+}
+
+.btn-container {
+  width: 85%;
+  margin: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-end;
+}
+
+#btn-start {
+  width: 110px;
+  height: 50px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+  border: #a20909;
+  box-shadow: 0px 2px 4px #000000;
+  margin-bottom: 25px;
+}
+
+#btn-start:hover {
+  background-color: #dc0202;
+  cursor: pointer;
+}
+
+#btn-start:active {
+  background-color: #990202;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 20px;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+.answer-btn {
+    width: 300px;
+    height: 50px;
+    background-color: #5d77ab;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px #000000;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.answer-btn:hover {
+    background-color: #485f8d;
 }
