@@ -1,3 +1,5 @@
-import {hideFirstPage } from '../handlers/hide-first-page.js';
+import { hideFirstPage } from '../handlers/hide-first-page.js';
 
-export const hidePage= document.querySelector('.btn').addEventListener('click',hideFirstPage);
+export const hidePage = document
+  .querySelector('.btn')
+  .addEventListener('click', hideFirstPage);

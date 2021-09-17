@@ -3,7 +3,19 @@
 import { load } from '../data-access/load.js';
 
 export const initializeState = async () => {
-  await load('../../../data/quiz.json', import.meta);
+  const response = await load('../../../data.json', import.meta);
 
+  const answer = response.questions[0].question;
 
+  return answer;
 };
+
+initializeState();
+
+// export function getShuffledQuestions() {
+//   initializeState();
+//   let shuffledQuestions;
+//   let currentQuestionIndex;
+//   shuffledQuestions = questions.sort(() => Math.random() - 0.5);
+//   currentQuestionIndex = 0;
+// }
