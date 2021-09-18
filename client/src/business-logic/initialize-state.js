@@ -2,28 +2,14 @@
 
 import { load } from '../data-access/load.js';
 
-
 export const initializeState = async () => {
- const response=await load('../../../data/quiz.json', import.meta);
+  const response = await load('../../../data/quiz.json', import.meta);
 
-const answer=response.questions[0].question
+  let shuffledQuestions = response.questions.sort(() => Math.random() - 0.5);
+  response.questions[0] = shuffledQuestions[0];
 
-return answer;
-
-}
+  return response;
+  //.questions[0].questions;
+};
 
 initializeState();
-
-
-
-// const checkIfCorrect=async()=>{
-
-// const response =await load('../../../data/quiz.json', import.meta);
-// const data=await response.json()
-
-// console.log (data + 'I am here')
-
-
-// }
-
-// checkIfCorrect();
