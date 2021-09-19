@@ -4,12 +4,13 @@ const questionContainerElement = document.getElementById('question-container');
 const nextButton = document.getElementById('next-btn');
 const questionElement = document.getElementById('question');
 const answerButtonsElement = document.getElementById('answer-buttons');
+let shuffledQuestions;
+let currentQuestionIndex = 0;
 
 export const initializeApp = async () => {
   // this works! you will only need to change the name of the .json file
 
   const firstQuestion = await initializeState();
-
   return firstQuestion;
 };
 const a = await initializeApp();
@@ -24,5 +25,6 @@ export function startGame() {
     nextButton.classList.remove('hide');
 
     answerButtonsElement.appendChild(button);
+    currentQuestionIndex++;
   });
 }

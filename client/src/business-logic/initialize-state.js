@@ -2,7 +2,7 @@
 
 import { load } from '../data-access/load.js';
 let shuffledQuestions;
-let currentQuestionIndex = 0;
+let currentQuestionIndex;
 
 export const initializeState = async () => {
   const response = await load('../../../data/quiz.json', import.meta);
