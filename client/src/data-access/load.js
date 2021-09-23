@@ -65,6 +65,7 @@ export const load = async (dataPath = '', meta = { url: '' }) => {
   }
   const data = await dataRes.value.json();
   console.log(`: loaded data:`, data);
+  return data;
   // make sure the loaded data is an object, not an array or a primitive type
   if (!isPlainObject(data)) {
     throw new TypeError('loaded data is not an object');
@@ -149,4 +150,9 @@ export const load = async (dataPath = '', meta = { url: '' }) => {
     console.log('--- ---  finished loading initial state  --- ---');
   }
   console.log('\n\n');
+
+  // return data
+  console.log(data + ' i am the data');
 };
+
+
