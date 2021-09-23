@@ -6,11 +6,11 @@ let currentQuestionIndex;
 
 export const initializeState = async () => {
   const response = await load('../../../data/quiz.json', import.meta);
-  shuffledQuestions = response.questions.sort(() => Math.random() - 0.5);
-  response.questions[currentQuestionIndex] =
-    shuffledQuestions[currentQuestionIndex];
+  shuffledQuestions = response.questions;
 
   return response;
 };
 
 initializeState();
+
+//export
